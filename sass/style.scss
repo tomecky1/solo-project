@@ -10,3 +10,55 @@
 
 /* Pages / Views */
 // @import "pages/registration";
+
+/*Gloabl*/
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-size: $paragraph-font-size;
+    line-height: 1.5;
+    font-family: $paragraph-font;
+    color: $paragraph-color;
+}
+.container {
+    max-width: 1140px;
+    padding: 20px 20px;
+    margin: 0 auto;
+}
+.navigation-sidebar {
+    height: 100vh;
+    width: 15%;
+    padding: 20px 0;
+    position: relative;
+    background-color: rgb(26, 25, 25);
+}
+.navigation-sidebar-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.sidebar-brand-name {
+    color: white;
+    font-family: $brand-font;
+}
+i, fas fa-bars {
+    color: darkgray;
+    font-size: 24px;
+}
+.navigation-sidebar-menu ul li {
+    display: block;
+    a {
+        text-decoration: none;
+        font-family: $paragraph-font;
+        color: $paragraph-color;
+        padding: 10px 20px;
+    }
+}
+.icon {
+    height: 20px;
+    width: 20px;
+    filter: blur(0.2px) brightness(2.2) hue-rotate(230deg) opacity(0.9) saturate(3) sepia(0.4) grayscale(1) url('#sepia');
+}
