@@ -3949,3 +3949,7 @@ a:hover {
 h3, h5 {
   display: inline;
 }
+
+.frame {
+  border-right: darkgray 1px solid;
+}
