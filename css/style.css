@@ -3870,10 +3870,17 @@ body {
 }
 
 .container {
-  max-width: 1140px;
-  padding: 20px 20px;
+  width: 100%;
+  max-width: 1170px;
   margin: 0 auto;
-  overflow: hidden;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /*Navigation*/
@@ -3938,7 +3945,9 @@ i, fas fa-bars {
 }
 
 .icon {
-  filter: brightness(0.5);
+  background-color: #979797;
+  color: #F5F5F2;
+  fill: red;
   margin-left: 15px;
   height: 20px;
   width: 20px;
