@@ -83,10 +83,8 @@ i, fas fa-bars {
     }
 }
 .icon {
-    background-color: #979797;
     color: #F5F5F2;
-    fill: red;
-    //filter: brightness(0.5);    
+    filter: invert(.5);
     margin-left: 15px;
     height: 20px;
     width: 20px;
