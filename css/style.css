@@ -3949,6 +3949,10 @@ i, fas fa-bars {
   color: #F5F5F2;
 }
 
+.navigation-sidebar-menu ul li:hover .icon {
+  filter: invert(1);
+}
+
 .icon {
   color: #F5F5F2;
   filter: invert(0.5);
