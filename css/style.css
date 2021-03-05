@@ -3867,6 +3867,8 @@ body {
   line-height: 1.5;
   font-family: "Rubik", sans-serif;
   color: #979797;
+  background-color: gainsboro;
+  z-index: 1;
 }
 
 .container {
@@ -3911,6 +3913,9 @@ body {
 
 .general, .links, .top-bar {
   margin-left: 18%;
+  background-color: white;
+  z-index: 2;
+  overflow: hidden;
 }
 
 i, fas fa-bars {
@@ -3974,4 +3979,15 @@ h3 {
   border-right: darkgray 1px solid;
   border-bottom: darkgray 1px solid;
   text-align: center;
+}
+
+/* General */
+.general {
+  margin-left: 20%;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+.general-wrapper {
+  margin: 15px;
 }
