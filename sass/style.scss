@@ -125,5 +125,24 @@ h3 {
      margin-top: 2%;
  }
  .general-wrapper {
-     margin: 15px;
+     //margin: 15px;
+}
+.date-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+    border-top: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+    margin: 20px 0;
+}
+.date-one, .date-two {
+    padding: 1% 8% 1% 1%;
+    border: #979797 solid 1px;
+}
+.date-two {
+    border-left: 0;
+}
+h4 {
+    padding-left: 2%;
 }
