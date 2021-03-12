@@ -3875,8 +3875,8 @@ body {
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .container-fluid {
@@ -4016,4 +4016,12 @@ h3 {
 
 h4 {
   padding-left: 2%;
+}
+
+.thick {
+  font-weight: bold;
+}
+
+.content {
+  border-bottom: #979797 solid 1px;
 }
