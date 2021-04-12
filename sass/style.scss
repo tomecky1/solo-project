@@ -57,7 +57,7 @@ body {
     color: white;
     font-family: $brand-font;
 }
-.general, .links, .top-bar {
+.general, .links, .top-bar, .links-section{
     margin-left: 18%;
     background-color: white;
     z-index: 2;
@@ -151,4 +151,69 @@ h4 {
 }
 .content {
     border-bottom: #979797 solid 1px;
+}
+.icon-calendar {
+    color: #F5F5F2;
+    filter: invert(.5);
+    margin-left: 15px;
+    height: 17px;
+    width: 17px;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.box-refresh {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    background-color: #F58220;
+    margin-left: 15px;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.icon-refresh {
+    position: absolute;
+    color: #F5F5F2;
+    filter: invert(1);
+    height: 20px;
+    width: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.value {
+    color: $values-color;
+}
+.button {
+    background-color: #F5F5F2;
+    padding: 14px;
+}
+.button-color-1 {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    background-color: #56819F;
+    border-radius: 50%;
+}
+.button-color-2 {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #FFA200;
+}
+.button-color-3 {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #04AE00
+}
+.button-name {
+    color: #1a1919;
+}
+/* Links */
+.links-section {
+    margin-left: 20%;
+    margin-right: 2%;
+    margin-top: 2%;
 }
