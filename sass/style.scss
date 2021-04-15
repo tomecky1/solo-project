@@ -28,8 +28,8 @@ body {
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 14%;
+    padding-right: 14%;
     
 }
 .container-fluid {
@@ -138,7 +138,7 @@ h3 {
 }
 .date-one, .date-two {
     padding: 1% 8% 1% 1%;
-    border: #979797 solid 1px;
+    border: solid 1px $paragraph-color;
 }
 .date-two {
     border-left: 0;
@@ -148,6 +148,7 @@ h4 {
 }
 .thick {
     font-weight: bold;
+    margin: 8px;
 }
 .content {
     border-bottom: #979797 solid 1px;
@@ -183,9 +184,18 @@ h4 {
 .value {
     color: $values-color;
 }
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .button {
     background-color: #F5F5F2;
     padding: 14px;
+    margin-right: 8%;
+}
+.button-earned {
+    background: white;
 }
 .button-color-1 {
     display: inline;
@@ -216,4 +226,32 @@ h4 {
     margin-left: 20%;
     margin-right: 2%;
     margin-top: 2%;
+}
+hr {
+    color: $paragraph-color;
+}
+.links-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button-new-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-new {
+    padding: 10px 20px;
+    background-color: #FFA200;
+    color: #F5F5F2;
+    font-family: $paragraph-font;
+    font-size: 18px;
+    margin: 20px 20px;
+    border-radius: 5%;
+    //width: 140px;
+}
+.links-link a {
+    color: #56819F;
+    font-family: $paragraph-font;
+
 }

@@ -3875,8 +3875,8 @@ body {
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 14%;
+  padding-right: 14%;
 }
 
 .container-fluid {
@@ -4007,7 +4007,7 @@ h3 {
 
 .date-one, .date-two {
   padding: 1% 8% 1% 1%;
-  border: #979797 solid 1px;
+  border: solid 1px #979797;
 }
 
 .date-two {
@@ -4020,6 +4020,7 @@ h4 {
 
 .thick {
   font-weight: bold;
+  margin: 8px;
 }
 
 .content {
@@ -4061,9 +4062,23 @@ h4 {
   color: #000000;
 }
 
+.button-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
 .button {
   background-color: #F5F5F2;
   padding: 14px;
+  margin-right: 8%;
+}
+
+.button-earned {
+  background: white;
 }
 
 .button-color-1 {
@@ -4099,4 +4114,41 @@ h4 {
   margin-left: 20%;
   margin-right: 2%;
   margin-top: 2%;
+}
+
+hr {
+  color: #979797;
+}
+
+.links-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.button-new-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.button-new {
+  padding: 10px 20px;
+  background-color: #FFA200;
+  color: #F5F5F2;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  margin: 20px 20px;
+  border-radius: 5%;
+}
+
+.links-link a {
+  color: #56819F;
+  font-family: "Rubik", sans-serif;
 }
