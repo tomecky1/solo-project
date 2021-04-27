@@ -4123,8 +4123,8 @@ hr {
 .links-wrapper {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -ms-flex-pack: center;
+      justify-content: center;
   -ms-flex-align: center;
       align-items: center;
 }
@@ -4136,6 +4136,8 @@ hr {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 .button-new {
@@ -4148,7 +4150,15 @@ hr {
   border-radius: 5%;
 }
 
-.links-link a {
+.links-link {
   color: #56819F;
   font-family: "Rubik", sans-serif;
+}
+
+.link {
+  border-bottom: #979797 solid 1px;
+}
+
+.link:hover {
+  background: #E3E3E3;
 }

@@ -232,13 +232,14 @@ hr {
 }
 .links-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 .button-new-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
 }
 .button-new {
     padding: 10px 20px;
@@ -250,8 +251,14 @@ hr {
     border-radius: 5%;
     //width: 140px;
 }
-.links-link a {
+.links-link {
     color: #56819F;
     font-family: $paragraph-font;
 
+}
+.link {
+    border-bottom: #979797 solid 1px;
+}
+.link:hover {
+    background: #E3E3E3;
 }
